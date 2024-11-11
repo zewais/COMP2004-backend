@@ -1,3 +1,3 @@
-*Contacts project
+# Contacts project
 
-##Getting the backend into fullstack
+## Getting the backend into fullstack
