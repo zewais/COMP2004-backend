@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Mickey Mouse",
+    "contact": {
+      "email": "mickey.mouse@disney.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Main Street, Disneyland"
+    },
+    "image": "https://i.pinimg.com/736x/65/d6/cf/65d6cfcb2bb5193d6d160157b34b2bd0.jpg"
+  },
+  {
+    "name": "Minnie Mouse",
+    "contact": {
+      "email": "minnie.mouse@disney.com",
+      "phone": "+1 (555) 987-6543",
+      "address": "456 Fantasy Lane, Disneyland"
+    },
+    "image": "https://i.pinimg.com/474x/2e/2c/87/2e2c87d9460452c9ee8043dd3f0bd62f.jpg"
+  },
+  {
+    "name": "Donald Duck",
+    "contact": {
+      "email": "donald.duck@disney.com",
+      "phone": "+1 (555) 789-0123",
+      "address": "789 Toon Town, Disneyland"
+    },
+    "image": "https://www.shutterstock.com/'image'-vector/donald-duck-character-vector-illustration-600nw-2307712567.jpg"
+  },
+  {
+    "name": "Goofy",
+    "contact": {
+      "email": "goofy@disney.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "101 Silly Street, Disneyland"
+    },
+    "image": "https://www.shutterstock.com/'image'-vector/goofy-disney-character-vector-illustration-260nw-2308208063.jpg"
+  },
+  {
+    "name": "Cinderella",
+    "contact": {
+      "email": "cinderella@disney.com",
+      "phone": "+1 (555) 345-6789",
+      "address": "Castle, Disneyland"
+    },
+    "image": "https://i.pinimg.com/564x/b1/4a/0f/b14a0f4e6acb5ecc382d26a573946453.jpg"
+  },
+  {
+    "name": "Simba",
+    "contact": {
+      "email": "simba@priderock.com",
+      "phone": "+1 (555) 876-5432",
+      "address": "Pride Rock, Africa"
+    },
+    "image": "https://i.pinimg.com/736x/df/e8/5d/dfe85d099aedd737d1fae70a8d4d3c40.jpg"
+  },
+  {
+    "name": "Ariel",
+    "contact": {
+      "email": "ariel@underthesea.com",
+      "phone": "+1 (555) 321-0987",
+      "address": "Under the Sea, Atlantica"
+    },
+    "image": "https://www.shutterstock.com/'image'-vector/august-16-2023-bandung-indonesiaenchanting-600nw-2349919525.jpg"
+  },
+  {
+    "name": "Buzz Lightyear",
+    "contact": {
+      "email": "buzz.lightyear@spacecommand.com",
+      "phone": "+1 (555) 543-2109",
+      "address": "Star Command, Space"
+    },
+    "image": "https://media.istockphoto.com/id/458413125/photo/buzz-lightyear-toy.jpg?s=612x612&w=0&k=20&c=vEshm_ykvl4NfTTU1kpIoGlhrlL9crvwwpMf3vF_R_s="
+  },
+  {
+    "name": "Elsa",
+    "contact": {
+      "email": "elsa@arendelle.com",
+      "phone": "+1 (555) 789-6543",
+      "address": "Ice Palace, Arendelle"
+    },
+    "image": "https://freepngimg.com/thumb/disney/173540-frozen-elsa-download-free-'image'.png"
+  },
+  {
+    "name": "Woody",
+    "contact": {
+      "email": "woody@toystory.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "Andy's Room, Toy Story Land"
+    },
+    "image": "https://i.pinimg.com/originals/a3/59/52/a359522b7fec60770094aae8cf469539.png"
+  }
+]
