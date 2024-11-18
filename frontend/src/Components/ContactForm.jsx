@@ -2,6 +2,7 @@ export default function ContactForm({
   formData,
   handleOnChange,
   handleOnSubmit,
+  isEditing,
 }) {
   return (
     <div className="contact-form">
@@ -46,7 +47,7 @@ export default function ContactForm({
           placeholder="Image URL"
         />
         <br />
-        <button type="submit">Add Contact</button>
+        <button type="submit">{isEditing ? "Edit" : "Add Contact"}</button>
       </form>
     </div>
   );

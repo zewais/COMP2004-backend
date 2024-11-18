@@ -54,3 +54,36 @@ server.post("/add-contact", async (request, response) => {
     response.status(400).json({ message: error.message });
   }
 });
+
+server.delete("/contacts/:id", async (request, response) => {
+  const { id } = request.params;
+  const objectId = new mongoose.Types.ObjectId(id); // Convert id to Mongoose ObjectId
+  try {
+    await Contact.findByIdAndDelete(objectId);
+    response.status(200).json({ message: "Contact deleted successfully" });
+  } catch (error) {
+    response.status(404).json({ message: error.message });
+  }
+});
+
+server.patch("/contacts/:id", async (request, response) => {
+  const { id } = request.params;
+  const { name, email, address, phone, image } = request.body;
+  const objectId = new mongoose.Types.ObjectId(id); // Convert id to Mongoose ObjectId
+  await Contact.findById(objectId).then((contact) => console.log(contact));
+  try {
+    await Contact.findByIdAndUpdate(id, {
+      name,
+      contact: { email, phone, address },
+      image,
+    }).then((response) => {
+      console.log(response);
+    });
+
+    await response
+      .status(200)
+      .json({ message: "Contact updated successfully" });
+  } catch (error) {
+    response.status(404).json({ message: error.message });
+  }
+});
