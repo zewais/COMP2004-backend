@@ -70,7 +70,6 @@ server.patch("/contacts/:id", async (request, response) => {
   const { id } = request.params;
   const { name, email, address, phone, image } = request.body;
   const objectId = new mongoose.Types.ObjectId(id); // Convert id to Mongoose ObjectId
-  await Contact.findById(objectId).then((contact) => console.log(contact));
   try {
     await Contact.findByIdAndUpdate(id, {
       name,
